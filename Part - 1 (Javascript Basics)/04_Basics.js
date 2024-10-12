@@ -65,3 +65,14 @@ let myArr3 = new Array("A", "B", "C", "D", "E")
 
 // let MyNewArray = Array.of(score1, score2, score3)
 // console.log(MyNewArray);
+
+// Object de-structuring
+
+const course = {
+    courseName : "JS",
+    price : 999,
+    courseTeacher : "Hitesh Choudhary"
+}
+
+const {courseTeacher : teacher} = course
+console.log(teacher)
